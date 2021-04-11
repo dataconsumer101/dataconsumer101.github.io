@@ -13,7 +13,7 @@
     <h3>String Mirror</h3>
 
     <p>
-        <form>
+        <form onsubmit="reverse_string(); return false;">
             <input id="mirror" type="text">
             <input type="button" value="reverse" onClick="reverse_string();">
         </form>
@@ -21,12 +21,12 @@
 
     <div id="mirror_output"></div>
 
-    <br><br>
+    <br>
 
     <h3>20x Multiples</h3>
 
     <p>
-        <form>
+        <form onsubmit="make_table(); return false;">
             <input id="num" type="number">
             <input type="button" value="calculate" onClick="make_table();">
         </form>
@@ -43,12 +43,12 @@
         </table>
     </div>
 
-    <br><br>
+    <br>
 
     <h3>President Height & Weight Lookup</h3>
 
     <p>
-        <form>
+        <form onsubmit="size_lookup(); return false;">            
             <input id="president" type="text">
             <input type="button" value="check" onClick="size_lookup();">
         </form>
